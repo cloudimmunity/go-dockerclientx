@@ -8,7 +8,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/fsouza/go-dockerclient/external/github.com/stretchr/testify/assert"
+	"github.com/cloudimmunity/go-dockerclientx/external/github.com/stretchr/testify/assert"
 )
 
 func LogAndAssertJSON(t *testing.T, log func(*Logger), assertions func(fields Fields)) {

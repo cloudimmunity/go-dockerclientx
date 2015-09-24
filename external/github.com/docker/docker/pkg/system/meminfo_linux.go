@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/units"
+	"github.com/cloudimmunity/go-dockerclientx/external/github.com/docker/docker/pkg/units"
 )
 
 var (

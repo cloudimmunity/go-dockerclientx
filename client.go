@@ -30,12 +30,12 @@ import (
 
 	"time"
 
-	"github.com/fsouza/go-dockerclient/external/github.com/docker/docker/opts"
-	"github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/homedir"
-	"github.com/fsouza/go-dockerclient/external/github.com/docker/docker/pkg/stdcopy"
+	"github.com/cloudimmunity/go-dockerclientx/external/github.com/docker/docker/opts"
+	"github.com/cloudimmunity/go-dockerclientx/external/github.com/docker/docker/pkg/homedir"
+	"github.com/cloudimmunity/go-dockerclientx/external/github.com/docker/docker/pkg/stdcopy"
 )
 
-const userAgent = "go-dockerclient"
+const userAgent = "go-dockerclientx"
 
 var (
 	// ErrInvalidEndpoint is returned when the endpoint is not a valid HTTP URL.

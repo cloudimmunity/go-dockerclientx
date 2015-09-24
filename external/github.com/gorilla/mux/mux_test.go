@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/fsouza/go-dockerclient/external/github.com/gorilla/context"
+	"github.com/cloudimmunity/go-dockerclientx/external/github.com/gorilla/context"
 )
 
 func (r *Route) GoString() string {

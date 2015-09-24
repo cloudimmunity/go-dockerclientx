@@ -1,8 +1,22 @@
-# go-dockerclient
+# go-dockerclientx
 
-[![Drone](https://drone.io/github.com/fsouza/go-dockerclient/status.png)](https://drone.io/github.com/fsouza/go-dockerclient/latest)
-[![Travis](https://img.shields.io/travis/fsouza/go-dockerclient.svg?style=flat-square)](https://travis-ci.org/fsouza/go-dockerclient)
-[![GoDoc](https://img.shields.io/badge/api-Godoc-blue.svg?style=flat-square)](https://godoc.org/github.com/fsouza/go-dockerclient)
+[![Drone](https://drone.io/github.com/cloudimmunity/go-dockerclientx/status.png)](https://drone.io/github.com/cloudimmunity/go-dockerclientx/latest)
+[![Travis](https://img.shields.io/travis/cloudimmunity/go-dockerclientx.svg?style=flat-square)](https://travis-ci.org/cloudimmunity/go-dockerclientx)
+[![GoDoc](https://img.shields.io/badge/api-Godoc-blue.svg?style=flat-square)](https://godoc.org/github.com/cloudimmunity/go-dockerclientx)
+
+## Fork Info
+
+Forked from `github.com/fsouza/go-dockerclient`.
+
+Goals:
+
+* Keep up with the current Docker API.
+* Raw API interface (to have a way out in case the library can't keep up with the official Docker API or if you need more control over the calls).
+* Easy debugging and tracing.
+* Extensive client documentation and samples.
+* Docker Remote API documentation (because the official docs are often incomplete)
+
+## Overview
 
 This package presents a client for the Docker remote API. It also provides
 support for the extensions in the [Swarm API](https://docs.docker.com/swarm/API/).
@@ -29,7 +43,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/fsouza/go-dockerclient"
+	"github.com/cloudimmunity/go-dockerclientx"
 )
 
 func main() {
@@ -57,7 +71,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/fsouza/go-dockerclient"
+	"github.com/cloudimmunity/go-dockerclientx"
 )
 
 func main() {
@@ -81,7 +95,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/fsouza/go-dockerclient"
+	"github.com/cloudimmunity/go-dockerclientx"
 )
 
 func main() {

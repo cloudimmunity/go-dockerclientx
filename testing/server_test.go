@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/fsouza/go-dockerclient"
+	"github.com/cloudimmunity/go-dockerclientx"
 )
 
 func TestNewServer(t *testing.T) {
