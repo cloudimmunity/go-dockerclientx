@@ -116,6 +116,7 @@ type ImageHistory struct {
 	Created   int64    `json:"Created,omitempty" yaml:"Created,omitempty"`
 	CreatedBy string   `json:"CreatedBy,omitempty" yaml:"CreatedBy,omitempty"`
 	Size      int64    `json:"Size,omitempty" yaml:"Size,omitempty"`
+	Comment   string   `json:"Comment" yaml:"Id"`
 }
 
 // ImageHistory returns the history of the image by its name or ID.
