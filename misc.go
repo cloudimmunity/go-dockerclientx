@@ -4,7 +4,13 @@
 
 package docker
 
-import "strings"
+import (
+	"encoding/json"
+	"net"
+	"strings"
+
+	"github.com/docker/docker/api/types/swarm"
+)
 
 // Version returns version information about the docker server.
 //
